@@ -1,0 +1,136 @@
+
+
+.reviewBar{
+  font-family: desText, desFont, sans-serif;
+  background-color: #2a241e;
+  color: #f6f5ec;
+  padding: 45px;
+  font-size: 1.5rem;
+}
+
+h2{
+  width:100%;
+  margin: 2rem auto;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: desText, desFont, sans-serif;
+}
+h3{
+  width:100%;
+  margin: 2rem auto;
+  margin-top:0;
+  text-align: center;
+  font-family: desText, desFont, sans-serif;
+}
+
+.firstReviewFix{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -14%);
+}
+
+.reviews{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: desText, desFont, sans-serif;
+}
+.reviews p{
+  background-color: #2a241e;
+  width: fit-content;
+  color: #f6f5ec;
+  font-style: italic;
+  margin-bottom: 0;
+  margin-top: 0.4rem;
+  padding: 0.3rem;
+}
+
+.twoReviews .review{
+  width: 300px;
+  width: 300px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, 0%);
+}
+
+.oneReview{
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 740px){
+  .twoReviews .review, .reviews p{
+    display: block !important;
+  }
+  .twoReviews .review{
+    position: initial;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, 0);
+  }
+  .review{
+    width: 90% !important;
+    width: 300px !important;
+    margin: 0 auto !important;
+  }
+
+  .reviewBar{
+    margin-bottom: 3rem;
+  }
+}
+
+.creditted {
+    margin-top: 0.4rem;
+}
+
+.oneReview .review{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.twoReviews .review{
+  display:inline-block;
+}
+
+input{
+    color: #2a241e;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #2a241e;
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 300px;
+    display: block;
+}
+
+input#mce-EMAIL{
+    font-family: desText, desFont, sans-serif;
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+input#mc-embedded-subscribe {
+    background-color: #2a241e;
+    color: #f6f5ec;
+    border:none;
+}
+
+input#mc-embedded-subscribe:hover {
+    cursor:pointer;
+}
+
+input#mc-embedded-subscribe:focus {
+    background-color: #f6f5ec;
+    color: #2a241e;
+    outline-style: solid;
+    outline-color: #2a241e;
+}
+::placeholder {
+    color: #2a241e;
+    opacity: 0.7;
+}
+

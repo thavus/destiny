@@ -1,0 +1,19 @@
+.photoHolder {
+    border-radius: 50%;
+    border: 7px solid #2d231f;
+    overflow: hidden;
+    width: 240px;
+    height: 240px;
+    margin: 2rem auto;
+}
+
+
+.info{
+  margin: auto;
+  font-size: 1.4rem;
+  font-family: desText, desFont, sans-serif;
+  max-width: 600px;
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 1.5rem;
+}

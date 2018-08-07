@@ -1,0 +1,14 @@
+
+        <div class = "header">
+                <h1 class="headerNameText"> <a routerLink="home" class = "logo" > Destiny Diess </a> </h1>
+                <div class="navbar" [ngClass]="{'sticky' : isSticky}" id="myHeader">
+                        <div>
+                                <span><a routerLink="books">Books</a></span>
+                                <span><a routerLink="news">News</a></span>
+                                <span><a routerLink="about">About</a></span>
+                                <span><a routerLink="contact">Contact</a></span>
+                        </div>
+                </div>
+        </div>
+
+        <div [ngClass]="{'topIsSticky' : isSticky}"></div>
